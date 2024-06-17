@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bars</title>
+    <style>
+        /* Horizontal Navigation Bar Styles */
+        .horizontal-nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: row;
+            background-color: rgb(176, 174, 174);
+        }
+
+        .horizontal-nav li {
+            padding: 10px;
+            border: 1px solid;
+            border-color: blue;
+        }
+
+        .horizontal-nav li:first-child {
+            font-weight: bold;
+            color:white;
+            background-color: rgb(128, 127, 127);
+        }
+
+        .horizontal-nav li:first-child a {
+            color: rgb(244, 242, 242);
+        }
+
+        .horizontal-nav li a {
+            text-decoration: none;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="horizontal-nav">
+        <h2>Horizontal Navigation Bar</h2>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Java</a></li>
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>
